@@ -1,0 +1,21 @@
+{
+  "name": "activepieces-onlinepay",
+  "version": "0.0.1",
+  "description": "An ActivePieces integration into Westpac OnlinePay.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "author": "mrvautin",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "dev": "tsc -w"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0",
+    "@activepieces/pieces-framework": "^0.7.43",
+    "@activepieces/pieces-common": "^0.4.1",
+    "@activepieces/shared": "^0.10.149"
+  },
+  "devDependencies": {}
+}
